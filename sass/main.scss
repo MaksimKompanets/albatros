@@ -1,5 +1,8 @@
-@import './utils/reset';
-@import './components/_header';
-@import './components/_';
+@import './base/reset';
+@import './base/reset';
+@import './utils/v-hidden';
+@import './utils/variables';
+@import './components/header';
+@import './components/products';
 
 
