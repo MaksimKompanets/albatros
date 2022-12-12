@@ -21,6 +21,10 @@
 
     @media screen and (min-width: $desktop) {
         flex-basis: calc((100% - 30px * 2) / 3);
+        &:last-child {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     transition: box-shadow var(--time) var(--cubic-bezier);
